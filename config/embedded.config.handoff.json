@@ -1,0 +1,4 @@
+{
+  "UNLOCK_KEY": "00112233445566778899aabbccddeeff00112233445566778899aabbccddeeff",
+  "MONGODB_URI": "mongodb://127.0.0.1:27017/selftest_handoff"
+}

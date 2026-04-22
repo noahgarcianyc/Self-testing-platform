@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: theme("fontFamily.sans");
+    background: radial-gradient(1200px 600px at 20% -10%, #1a2744 0%, transparent 55%),
+      radial-gradient(900px 500px at 100% 0%, #1e2d3d 0%, transparent 50%), #0f1219;
+    color: #e8eaef;
+    line-height: 1.5;
+  }
+
+  #root {
+    min-height: 100vh;
+  }
+
+  a {
+    color: #6c9eff;
+  }
+
+  button,
+  input,
+  textarea,
+  select {
+    font-family: inherit;
+  }
+
+  code,
+  pre {
+    font-family: theme("fontFamily.mono");
+  }
+}

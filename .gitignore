@@ -1,0 +1,8 @@
+node_modules/
+.env
+.env.local
+dist/
+*.log
+.DS_Store
+# Local admin desktop unlock app — do not push this folder to GitHub
+desktop/
